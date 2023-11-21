@@ -78,13 +78,6 @@ body {
   -webkit-transition-property: transform;
   transition-property: transform;
 }
-.hvr-grow:hover,
-.hvr-grow:focus,
-.hvr-grow:active {
-  -webkit-transform: scale(1.05);
-  transform: scale(1.05);
-}
-
 :root {
   /* These are the breakpoints, usage: for media query  */
   --table-xl-width: 1140px;
@@ -144,6 +137,13 @@ body {
   padding: 0px 15px;
   box-sizing: border-box;
   align-items: center;
+}
+
+.hvr-grow:hover,
+.hvr-grow:focus,
+.hvr-grow:active {
+  -webkit-transform: scale(1.05);
+  transform: scale(1.05);
 }
 
 @media screen and (max-width: 1199px) {
